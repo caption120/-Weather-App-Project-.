@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
     }
 });
 
-let apiKey = '9505fd1df737e20152fbd78cdb289b6a';
+
 
 let searchWeather = () => {
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${valuesearch.value}&units=metric&appid=${apiKey}`;
